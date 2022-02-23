@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.inputprocessingoutput.*;
+
 /**
  * Hello world!
  *
@@ -8,13 +10,31 @@ public class App
 {
     public static void main( String[] args )
     {
-        Suma numere = new Suma();
-        numere.a = 3;
-        numere.b = 4;
-        int c = numere.suma(numere.a, numere.b);
-        int produs = numere.produs(numere.a, numere.b);
-        System.out.println( "Hello World!" );
-        System.out.println("Suma este " + c);
-        System.out.println("Produsul este " + produs);
+      /**  //exercise1
+        SayingHello hello1 = new SayingHello();
+        hello1.start1();
+       */
+
+     /**   //exercise2
+        CountingTheNumbersOfCharacters counting1 = new CountingTheNumbersOfCharacters();
+        counting1.start();
+    */
+
+     /** //exercise3
+      *  PrintingQuotes print1 = new PrintingQuotes();
+        print1.start();
+      */
+
+   /**  //exercise4
+        MadLib mad1 = new MadLib();
+        mad1.start();
+    */
+
+    /**  //exercise5
+        SimpleMath math1 = new SimpleMath();
+        math1.start();
+     */
+    RetirementCalculator retired =new RetirementCalculator();
+    retired.start();
     }
 }
