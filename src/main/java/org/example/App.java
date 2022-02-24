@@ -1,6 +1,7 @@
 package org.example;
 
-import org.example.inputprocessingoutput.*;
+import org.example.calculations.AreaOfRectangularRoom;
+
 
 /**
  * Hello world!
@@ -33,8 +34,15 @@ public class App
     /**  //exercise5
         SimpleMath math1 = new SimpleMath();
         math1.start();
+
+     //exercise6
      */
-    RetirementCalculator retired =new RetirementCalculator();
+ /**   RetirementCalculator retired =new RetirementCalculator();
     retired.start();
+  */
+
+    //exercise7
+        AreaOfRectangularRoom area = new AreaOfRectangularRoom();
+        area.start();
     }
 }
