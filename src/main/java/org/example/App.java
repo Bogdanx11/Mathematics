@@ -1,6 +1,9 @@
 package org.example;
 
 import org.example.calculations.AreaOfRectangularRoom;
+import org.example.calculations.PaintCalculator;
+import org.example.calculations.PizzaParty;
+import org.example.calculations.SelfCheckout;
 
 
 /**
@@ -41,8 +44,29 @@ public class App
     retired.start();
   */
 
-    //exercise7
+
+   /** //exercise7
+
+
         AreaOfRectangularRoom area = new AreaOfRectangularRoom();
         area.start();
+    */
+
+   /**
+   //exercise8
+        PizzaParty pizza = new PizzaParty();
+        pizza.start();
+*/
+
+   /**
+   //exercise9
+        PaintCalculator paint = new PaintCalculator();
+        paint.start();
+    */
+
+   //exercise10
+        SelfCheckout self = new SelfCheckout();
+        self.start();
+
     }
 }
