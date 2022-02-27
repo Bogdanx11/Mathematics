@@ -14,6 +14,27 @@ public class App
 {
     public static void main( String[] args )
     {
+        Suma calcule = new Suma();
+        int a = 10;
+        int b = 5;
+
+        double c = 3.4;
+        double d = 4.5;
+
+        int sumInt = calcule.suma(a,b);
+        int productInt = calcule.produs(a,b);
+
+        double sumDouble = calcule.suma(c,d);
+        double productDouble = calcule.produs(c,d);
+
+
+        System.out.println("Integer sum :"+sumInt);
+        System.out.println("Integer product :"+productInt);
+
+        System.out.println("Double sum :"+sumDouble);
+        System.out.println("Double product :"+productDouble);
+
+
       /**  //exercise1
         SayingHello hello1 = new SayingHello();
         hello1.start1();
@@ -63,10 +84,12 @@ public class App
         PaintCalculator paint = new PaintCalculator();
         paint.start();
     */
-
+/**
    //exercise10
         SelfCheckout self = new SelfCheckout();
         self.start();
-
+*/
     }
+
+
 }
