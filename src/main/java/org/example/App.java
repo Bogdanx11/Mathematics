@@ -4,6 +4,9 @@ import org.example.calculations.AreaOfRectangularRoom;
 import org.example.calculations.PaintCalculator;
 import org.example.calculations.PizzaParty;
 import org.example.calculations.SelfCheckout;
+import org.example.makingDecisions.LegalDrivingAge;
+import org.example.makingDecisions.PasswordValidation;
+import org.example.makingDecisions.TaxCalculator;
 
 
 /**
@@ -14,6 +17,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        /**
         Suma calcule = new Suma();
         int a = 10;
         int b = 5;
@@ -89,7 +93,21 @@ public class App
         SelfCheckout self = new SelfCheckout();
         self.start();
 */
-    }
+/**
+//exercise 14
+        TaxCalculator taxCalculator = new TaxCalculator();
+        taxCalculator.start();
 
+ */
+/**
+//exercise 15
+        PasswordValidation password = new PasswordValidation();
+        password.start();
+*/
+
+//exercise 16
+        LegalDrivingAge legalDrivingAge = new LegalDrivingAge();
+        legalDrivingAge.start();
+    }
 
 }
