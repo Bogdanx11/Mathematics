@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.Functions.AnagramChecker;
+import org.example.Functions.Credit;
+import org.example.Functions.PasswordStrength;
+import org.example.Functions.ValidatingInouts;
 import org.example.calculations.AreaOfRectangularRoom;
 import org.example.calculations.PaintCalculator;
 import org.example.calculations.PizzaParty;
@@ -8,6 +12,8 @@ import org.example.makingDecisions.LegalDrivingAge;
 import org.example.makingDecisions.NumbersToNames;
 import org.example.makingDecisions.PasswordValidation;
 import org.example.makingDecisions.TaxCalculator;
+
+import java.util.Scanner;
 
 
 /**
@@ -112,10 +118,39 @@ public class App
         legalDrivingAge.start();
 
  */
-
+/**
 //exercise 21
         NumbersToNames months = new NumbersToNames();
         months.start();
+ */
+
+/**
+//exercise 24
+        AnagramChecker anagram = new AnagramChecker();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("String 1 :");
+       char[] string1 = scanner.next().toCharArray();
+        System.out.println("String 2: ");
+        char[] string2 = scanner.next().toCharArray();
+       if( anagram.anagramChecking(string1,string2))
+           System.out.println("They are anagrams");
+       else
+           System.out.println("They are not anagrams");
+
+*/
+/**
+        PasswordStrength passwordStrength = new PasswordStrength();
+        passwordStrength.start("1337H@xor");
+ */
+
+/**
+        Credit credit = new Credit();
+        System.out.println(credit.start());
+
+ */
+
+        ValidatingInouts valid = new ValidatingInouts();
+        valid.start();
  }
 
 }
