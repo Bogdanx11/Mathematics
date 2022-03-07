@@ -12,6 +12,7 @@ import org.example.makingDecisions.LegalDrivingAge;
 import org.example.makingDecisions.NumbersToNames;
 import org.example.makingDecisions.PasswordValidation;
 import org.example.makingDecisions.TaxCalculator;
+import org.example.repetion.*;
 
 import java.util.Scanner;
 
@@ -149,8 +150,41 @@ public class App
 
  */
 
+/**
         ValidatingInouts valid = new ValidatingInouts();
         valid.start();
+ */
+/**
+//exercise 28
+        AddingNumbers addingNumbers = new AddingNumbers();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("How many numbers you want to add ?");
+        int n = scanner.nextInt();
+        int sum = addingNumbers.start(n);
+        System.out.println("Sum is :" + sum);
+*/
+/**
+        //exercise 29
+        HandlingBadInput handlingBadInput = new HandlingBadInput();
+        handlingBadInput.start();
+*/
+
+/**
+//exercise 30
+        MultiplicationTable multiplicationTable = new MultiplicationTable();
+        multiplicationTable.start();
+ */
+
+/**
+//exercise 31
+        KarnovenHeathRate karnovenHeathRate = new KarnovenHeathRate();
+        karnovenHeathRate.start();
+ */
+
+//exercise32
+        GuessTheNumberGame guessTheNumberGame = new GuessTheNumberGame();
+        guessTheNumberGame.start();
+
  }
 
 }
