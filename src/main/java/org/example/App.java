@@ -8,6 +8,10 @@ import org.example.calculations.AreaOfRectangularRoom;
 import org.example.calculations.PaintCalculator;
 import org.example.calculations.PizzaParty;
 import org.example.calculations.SelfCheckout;
+import org.example.dataStructures.ComputingStatistics;
+import org.example.dataStructures.EmployeeListRemoval;
+import org.example.dataStructures.Magic8Ball;
+import org.example.dataStructures.PickingAWinner;
 import org.example.makingDecisions.LegalDrivingAge;
 import org.example.makingDecisions.NumbersToNames;
 import org.example.makingDecisions.PasswordValidation;
@@ -181,10 +185,33 @@ public class App
         karnovenHeathRate.start();
  */
 
+/**
 //exercise32
         GuessTheNumberGame guessTheNumberGame = new GuessTheNumberGame();
         guessTheNumberGame.start();
+*/
 
+/**
+//exercise 33
+        Magic8Ball magic8Ball = new Magic8Ball();
+        magic8Ball.start();
+
+*/
+/**
+//exercise 34
+        EmployeeListRemoval employeeListRemoval = new EmployeeListRemoval();
+        employeeListRemoval.start();
+ */
+
+/**
+//exercise 35
+        PickingAWinner pickingAWinner = new PickingAWinner();
+        pickingAWinner.start();
+ */
+
+//exercise 36
+        ComputingStatistics computingStatistics = new ComputingStatistics();
+        computingStatistics.start();
  }
 
 }
